@@ -1,0 +1,27 @@
+@use "../utils/animation.scss";
+
+.carousel {
+  width: 20%;
+  border-radius: 0 0 15px 15px;
+  margin: -20px auto 20px auto;
+  overflow: hidden;
+  box-shadow: 8px 8px 4px -3px rgba(0, 0, 0,0.7);
+
+  @media (max-width: 840px) {
+    display: none;
+  }
+  &__figure {
+    position: relative;
+    width: 300%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    animation: 20s sliders infinite;
+
+      &--pic {
+        width: 33.333%;
+        height: auto;
+        float: left;
+    }
+  }
+}

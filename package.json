@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "npm": "^8.3.0",
+    "sass": "^1.45.0"
+  },
+  "name": "projet_sass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch main.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hipoyume/Cours_Sass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hipoyume/Cours_Sass/issues"
+  },
+  "homepage": "https://github.com/Hipoyume/Cours_Sass#readme",
+  "description": ""
+}
